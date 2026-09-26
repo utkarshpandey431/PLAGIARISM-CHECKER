@@ -102,7 +102,7 @@ print()
 print("-"*80)
 a_text=input("Enter first text: ")
 b_text=input("Enter second text: ")
-pragiarism_checker(a_text,b_text)
+plagiarism_checker(a_text,b_text)
 
 
 
