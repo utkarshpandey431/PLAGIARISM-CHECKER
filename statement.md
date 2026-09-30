@@ -9,7 +9,7 @@
 
 *Course:* B.Tech – CSE (AI/ML)  
 *Year / Semester:* 1st Year, 1st Semester  
-*Academic Year:* 2025–2026  
+*Academic Year:* 2026–2027  
 
 ---
 
