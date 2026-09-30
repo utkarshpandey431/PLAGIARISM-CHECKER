@@ -39,20 +39,22 @@ It uses only core Python concepts: loops, conditionals, functions, recursion, se
 ## How to Run
 
 ### 1. Check Python
+
 ```bash
 python --version
 or
 python3 --version
 2. Clone the Repository
-git clone https://github.com/utkarshpandey431/PLAGIARISM-CHECKER.git
+git clone
+ https://github.com/utkarshpandey431/PLAGIARISM-CHECKER.git
 cd PLAGIARISM-CHECKER
 3. Run the Program
-python MAIN.PY
+python main.py
 or
-python3 MAIN.PY
+python3 main.py
 Project Structure
 PLAGIARISM-CHECKER/
-├── MAIN.PY          # Main program (run this)
+├── main.py          # Main program (run this)
 ├── README.md        # This file
 └── statement.md     # Problem statement and project details
 Functional Modules
