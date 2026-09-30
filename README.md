@@ -1,144 +1,134 @@
 # Plagiarism Checker
 
-A simple command-line Python program that compares two text documents and calculates the similarity percentage to detect possible plagiarism.
+A simple command-line Python program that checks the similarity between two text inputs using basic text preprocessing and word-set comparison.
 
-*Student:* Utkarsh Kumar Pandey  
-*Registration No.:* 26BAI10231  
-*Branch:* CSE (AI/ML)  
-*Institution:* VIT Bhopal  
-*Faculty Guide:* J. Manikandan  
-*Course:* Python Essentials – Evaluated Course Project  
+## Student Details
 
----
+- Student Name: Utkarsh Kumar Pandey
+- Registration Number: 26BAI10231
+- Branch: B.Tech – CSE (AI/ML)
+- Institution: VIT Bhopal
+- Faculty Guide: J. Manikandan
+- Course: Python Essentials
 
 ## Overview
 
-This project takes two text inputs, cleans them, counts word frequencies using recursion, calculates similarity using set intersection, and classifies the result as High, Moderate, or Low similarity.
+The Plagiarism Checker is a beginner-friendly Python project that compares two text inputs and calculates their word similarity percentage.
 
-It uses only core Python concepts: loops, conditionals, functions, recursion, sets, and dictionaries. No external libraries are required.
+The project demonstrates fundamental Python programming concepts such as:
 
----
+- Functions
+- Conditional statements
+- Loops
+- Recursion
+- Sets
+- Dictionaries
+- String processing
+- User input
+- Basic mathematical calculations
 
 ## Features
 
-- Text preprocessing (lowercase and punctuation removal)
-- Recursive word-frequency counting
-- Similarity calculation using sets
-- Clear similarity verdict (High / Moderate / Low)
-- Built-in demo and interactive mode
-
----
+- Accepts two text inputs from the user
+- Converts text into lowercase
+- Removes non-alphabetic characters
+- Extracts words from the text
+- Counts words using recursion
+- Uses sets to find common words
+- Calculates similarity percentage
+- Classifies the result into High, Moderate, or Low similarity
 
 ## Requirements
 
-- Python 3.6 or higher
-- No additional packages needed
-
----
+- Python 3.x
+- No external libraries are required
 
 ## How to Run
 
 ### 1. Check Python
 
-bash
-python --version
-
+    python --version
 
 or
 
-bash
-python3 --version
-
+    python3 --version
 
 ### 2. Clone the Repository
 
-bash
-git clone https://github.com/utkarshpandey431/PLAGIARISM-CHECKER.git
-cd PLAGIARISM-CHECKER
-
+    git clone https://github.com/utkarshpandey431/PLAGIARISM-CHECKER.git
+    cd PLAGIARISM-CHECKER
 
 ### 3. Run the Program
 
-bash
-python main.py
-
+    python main.py
 
 or
 
-bash
-python3 main.py
-
-
----
+    python3 main.py
 
 ## Project Structure
 
-text
-PLAGIARISM-CHECKER/
-├── main.py
-├── README.md
-└── statement.md
-
-
----
+    PLAGIARISM-CHECKER/
+    │
+    ├── main.py
+    ├── README.md
+    └── statement.md
 
 ## Functional Modules
 
-| Module | Function | Purpose |
-|---|---|---|
-| 1 | preprocess_text() | Cleans text and splits it into words |
-| 2 | count_words_recursive() | Counts word frequency using recursion |
-| 3 | calculate_similarity() | Calculates similarity percentage using sets |
-| 4 | plagiarism_checker() | Main driver function |
+| Module | Description |
+|---|---|
+| preprocess_text() | Cleans and normalizes the input text |
+| count_words_recursive() | Counts words using recursion |
+| calculate_similarity() | Calculates similarity using common word sets |
+| plagiarism_checker() | Performs the complete plagiarism checking process |
 
----
+## Similarity Classification
+
+- High Similarity: More than 70%
+- Moderate Similarity: More than 40% and up to 70%
+- Low Similarity: 40% or below
 
 ## Sample Test Cases
 
-### Test 1 – Moderate Similarity
+### Test Case 1
 
-*Text 1:*  
-Artificial Intelligence is the future of technology.
+Input Text 1: Python is a programming language.
 
-*Text 2:*  
-Technology and Artificial Intelligence will shape the future.
+Input Text 2: Python is a programming language.
 
-*Expected:* Around 50–65% → Moderate similarity
+Expected Result: High Similarity
 
----
+### Test Case 2
 
-### Test 2 – High Similarity
+Input Text 1: Python programming is useful.
 
-*Text 1:*  
-Python is a powerful programming language.
+Input Text 2: Python programming can be useful.
 
-*Text 2:*  
-Python is a powerful programming language used widely.
+Expected Result: Moderate or High Similarity depending on the calculated percentage.
 
-*Expected:* More than 70% → High similarity
+### Test Case 3
 
----
+Input Text 1: I like programming.
 
-### Test 3 – Low Similarity
+Input Text 2: The weather is pleasant today.
 
-*Text 1:*  
-The sun rises in the east.
-
-*Text 2:*  
-Computers process data very quickly.
-
-*Expected:* Near 0% → Low similarity
-
----
+Expected Result: Low Similarity
 
 ## Notes for Evaluators
 
-- Fully executable from the command line
-- No GUI required
-- No external packages to install
-- Works on Windows, macOS, and Linux
+- The project is implemented using Python only.
+- The program does not require external libraries.
+- The project demonstrates fundamental Python programming concepts.
+- The main program file is main.py.
+- The program can be executed directly from the command line.
+- The similarity calculation is based on common words between the two texts.
+- This is an educational project and is intended to demonstrate basic Python programming concepts.
 
----
+## Author
 
-*Author:* Utkarsh Kumar Pandey (26BAI10231)  
-*Faculty:* J. Manikandan | VIT Bhopal | CSE (AI/ML)
+Utkarsh Kumar Pandey
+
+## Faculty Guide
+
+J. Manikandan
