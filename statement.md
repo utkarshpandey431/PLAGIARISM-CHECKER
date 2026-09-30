@@ -17,7 +17,7 @@
 
 In academic and professional environments, ensuring the originality of written content is essential. Manually comparing two documents to detect similarities is time-consuming, subjective, and error-prone.
 
-This project develops a simple *Plagiarism Checker* in Python (MAIN.PY) that accepts text inputs, preprocesses the content, computes word frequency and similarity percentages, and classifies the result into risk levels (High, Moderate, or Low).
+This project develops a simple *Plagiarism Checker* in Python (main.py) that accepts text inputs, preprocesses the content, computes word frequency and similarity percentages, and classifies the result into risk levels (High, Moderate, or Low).
 
 The solution relies on core programming concepts: loops, conditionals, functions, sets, dictionaries, and string manipulation.
 
